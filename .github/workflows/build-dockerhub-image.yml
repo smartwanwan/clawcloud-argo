@@ -44,7 +44,7 @@ jobs:
           tags: |
             docker.io/${{ secrets.DOCKER_USERNAME }}/clawcloud-argo:7568
           labels: |
-            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.source=https://docker.com/${{ secrets.DOCKER_USERNAME }}
             org.opencontainers.image.description=HTTP Server
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
